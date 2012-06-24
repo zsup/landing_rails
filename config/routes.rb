@@ -1,4 +1,8 @@
 LandingRails::Application.routes.draw do
+  get "static_pages/landing"
+  
+  root to: "static_pages#landing"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
