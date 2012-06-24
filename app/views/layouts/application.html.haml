@@ -22,30 +22,19 @@
             %span.icon-bar
             %span.icon-bar
             %span.icon-bar
-          %a.brand(href="#") LandingRails
+          %a.brand(href="#") SWITCH
           .container.nav-collapse
             %ul.nav
-              %li= link_to "Link 1", "/path1"
-              %li= link_to "Link 2", "/path2"
-              %li= link_to "Link 3", "/path3"
+              %li= link_to "Users", "#"
+              %li= link_to "Developers", "#"
+              %li= link_to "Blog", "#"
 
     .container
-
       .content
-        .row
-          .span9
-            = yield
-          .span3
-            .well.sidebar-nav
-              %h3 Sidebar
-              %ul.nav.nav-list
-                %li.nav-header Sidebar
-                %li= link_to "Link 1", "/path1"
-                %li= link_to "Link 2", "/path2"
-                %li= link_to "Link 3", "/path3"
+        = yield
     
       %footer
-        %p &copy; Company 2012
+        %p &copy; Hex Labs, Inc. 2012
     /
       Javascripts
       \==================================================
